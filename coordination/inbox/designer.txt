@@ -1,0 +1,8 @@
+MESSAGE_ID: BOOTSTRAP-designer-001
+TIMESTAMP_UTC: 2026-09-08T06:26:54Z
+FROM: manager
+TO: designer
+RELATED_TASK: REGISTRATION
+PRIORITY: NORMAL
+MESSAGE: Read docs/WORKER_ONBOARDING.md and register through the registration issue PR. This is onboarding guidance, not an implementation assignment.
+RESPONSE_REQUIRED: YES

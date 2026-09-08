@@ -1,0 +1,10 @@
+# Worker registration — append entries only through registration PRs.
+# No worker registrations exist yet. The example below is a template, not a registered agent.
+# AGENT_ID:
+# ROLE:
+# STATUS: AVAILABLE
+# BRANCH:
+# CURRENT_ISSUE: NONE
+# CAPABILITIES:
+# LIMIT_WARNING_VISIBLE: NO
+# LAST_UPDATE_UTC:

@@ -1,0 +1,2 @@
+# architect outbox
+# No worker messages yet. Append messages using AGENTS.md protocol.
