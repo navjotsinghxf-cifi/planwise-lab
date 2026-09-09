@@ -8,3 +8,20 @@
 # CAPABILITIES:
 # LIMIT_WARNING_VISIBLE: NO
 # LAST_UPDATE_UTC:
+
+# Manager-transferred request; the historical template above is preserved.
+AGENT_ID: architect-chatgpt-01
+ROLE: architect
+STATUS: AVAILABLE
+REGISTRATION: PENDING_APPROVAL
+BRANCH: NONE
+TRANSFER_BRANCH: agent/manager/1-register-architect
+CURRENT_ISSUE: NONE
+CAPABILITIES: Repository/issue/PR/file/diff inspection; GitHub read verified by worker; push permission reported true, actual writing not tested; Notion read/write evidenced by registration submission.
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-09T04:37:36Z
+USER_AUTHORIZATION: Explicit independent architect session authorization supplied by user; confirmed in source request.
+SOURCE_MESSAGE: REG-ARCH-CHATGPT-01-001
+SOURCE_URL: https://app.notion.com/p/3d6e4d9a8cbb81bc8fcdc9c5bdbf18e8
+MANAGER_VERIFICATION_UTC: 2026-09-09T04:39:08Z
+MANAGER_FINDINGS: Source fetched; unique ID and vacant architect role verified against main and open PRs. No implementation assigned. Registration activation awaits reviewed PR acceptance; workflow PR #13 remains pending.
