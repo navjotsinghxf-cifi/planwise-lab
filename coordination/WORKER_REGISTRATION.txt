@@ -19,3 +19,12 @@ GITHUB_ACCESS: read/write on navjotsinghxf-cifi/planwise-lab; current branch: ag
 USER_AUTHORIZATION: user-authorized independent security_devops session
 LIMIT_WARNING_VISIBLE: NO
 LAST_UPDATE_UTC: 2026-09-11T15:03:42Z
+
+AGENT_ID: backend-chatgpt-01
+ROLE: backend
+STATUS: AVAILABLE
+BRANCH: agent/backend/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: deterministic scheduling; critical path; PERT; capacity calculations; weighted decisions and sensitivity; study scheduling; validated APIs; private persistence; ownership isolation; GitHub read/write capability confirmed; working branch: agent/backend/1-register
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:01:48Z
