@@ -1,0 +1,146 @@
+{
+  "mailbox": "https://app.notion.com/p/3d5e4d9a8cbb80ec9810f1c552f51861",
+  "workflow_pr": "https://github.com/navjotsinghxf-cifi/planwise-lab/pull/13",
+  "channels": [
+    {
+      "id": "3d5e4d9a-8cbb-8165-a00d-ddebd9630ffe",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb8165a00dddebd9630ffe?pvs=204",
+      "properties": {
+        "title": "manager — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81ec-b9e6-f6465d36b2af",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81ecb9e6f6465d36b2af?pvs=204",
+      "properties": {
+        "title": "manager — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81ac-8f70-f242209b0cc4",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81ac8f70f242209b0cc4?pvs=204",
+      "properties": {
+        "title": "architect — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81eb-94eb-db92e352885c",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81eb94ebdb92e352885c?pvs=204",
+      "properties": {
+        "title": "architect — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8184-ab51-f50c493aa84e",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb8184ab51f50c493aa84e?pvs=204",
+      "properties": {
+        "title": "designer — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81cf-90f6-df28e3eadf49",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81cf90f6df28e3eadf49?pvs=204",
+      "properties": {
+        "title": "designer — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81a1-a4b3-d8e81f163975",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81a1a4b3d8e81f163975?pvs=204",
+      "properties": {
+        "title": "frontend — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81cf-aef8-f88779dfa20c",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81cfaef8f88779dfa20c?pvs=204",
+      "properties": {
+        "title": "frontend — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8124-87bf-db356f38ea0e",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb812487bfdb356f38ea0e?pvs=204",
+      "properties": {
+        "title": "backend — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81a0-9bf3-f5b39b4faf2c",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81a09bf3f5b39b4faf2c?pvs=204",
+      "properties": {
+        "title": "backend — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8174-bd92-f1297ff43992",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb8174bd92f1297ff43992?pvs=204",
+      "properties": {
+        "title": "qa — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-811e-8317-e17b506395ba",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb811e8317e17b506395ba?pvs=204",
+      "properties": {
+        "title": "qa — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8143-bded-f709c29613d7",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb8143bdedf709c29613d7?pvs=204",
+      "properties": {
+        "title": "security_devops — Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8193-9055-ca492653f294",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81939055ca492653f294?pvs=204",
+      "properties": {
+        "title": "security_devops — Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-812d-ab06-e8627ada0cb3",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb812dab06e8627ada0cb3?pvs=204",
+      "properties": {
+        "title": "Registration"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8148-9ed1-e3da14b18afe",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81489ed1e3da14b18afe?pvs=204",
+      "properties": {
+        "title": "Deliverables"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81e1-8edf-f772df0b1d91",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81e18edff772df0b1d91?pvs=204",
+      "properties": {
+        "title": "ChatGPT — Registration Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-8151-b3a7-d82fcdcfcdb8",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb8151b3a7d82fcdcfcdb8?pvs=204",
+      "properties": {
+        "title": "ChatGPT — Registration Outbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81ac-96fd-e3452baf9794",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81ac96fde3452baf9794?pvs=204",
+      "properties": {
+        "title": "Claude — Registration Inbox"
+      }
+    },
+    {
+      "id": "3d5e4d9a-8cbb-81af-851f-f2b73923bae2",
+      "url": "https://app.notion.com/p/3d5e4d9a8cbb81af851ff2b73923bae2?pvs=204",
+      "properties": {
+        "title": "Claude — Registration Outbox"
+      }
+    }
+  ]
+}

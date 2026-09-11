@@ -226,3 +226,13 @@ PR_URL: NONE
 REVIEWER: qa, security_devops
 
 Role reservations do not assign work to unregistered workers. Manager must inspect repository state and explicitly assign before implementation. Root build configuration is initially frontend-owned; other workers propose changes through outboxes. Security contract review can be requested after that reviewer registers without waiting for final SECOPS task.
+
+## COORD
+TASK_ID: COORD
+GITHUB_ISSUE: https://github.com/navjotsinghxf-cifi/planwise-lab/issues/12
+OWNER: manager
+ALLOWED_PATHS: AGENTS.md; README.md; docs/WORKER_ONBOARDING.md; docs/NOTION_WORKFLOW.md; coordination/MASTER_TASKS.md; coordination/DECISIONS.md; coordination/status/manager.txt; coordination/checkpoints/manager.md; coordination/INTEGRATION_LOG.md; coordination/notion-channels.json
+STATUS: IN_PROGRESS — workflow proposal; independent review required
+ACCEPTANCE_CRITERIA: Notion channels, attributed manager transfers, preserved review gates, authorized public visibility recorded; no premature implementation assignments
+REQUIRED_TESTS: git diff --check; scoped diff review; Notion readback
+REVIEWER: independently authorized suitable reviewer, not manager

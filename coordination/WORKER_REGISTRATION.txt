@@ -20,6 +20,27 @@ USER_AUTHORIZATION: user-authorized independent security_devops session
 LIMIT_WARNING_VISIBLE: NO
 LAST_UPDATE_UTC: 2026-09-11T15:03:42Z
 
+AGENT_ID: designer-chatgpt-01
+ROLE: designer
+STATUS: AVAILABLE
+BRANCH: agent/designer/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: responsive accessible UX; tool workflow design; keyboard navigation; chart/table equivalents; original educational guides; truthful publisher-page drafts
+GITHUB_WRITE_CAPABILITY: YES
+GITHUB_READ_CAPABILITY: YES
+USER_AUTHORIZATION: Explicitly authorized by the user in this independent session
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:02:06Z
+
+AGENT_ID: backend-chatgpt-01
+ROLE: backend
+STATUS: AVAILABLE
+BRANCH: agent/backend/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: deterministic scheduling; critical path; PERT; capacity calculations; weighted decisions and sensitivity; study scheduling; validated APIs; private persistence; ownership isolation; GitHub read/write capability confirmed; working branch: agent/backend/1-register
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:01:48Z
+
 AGENT_ID: qa-chatgpt-01
 ROLE: qa
 STATUS: AVAILABLE

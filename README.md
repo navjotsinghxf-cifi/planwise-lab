@@ -3,7 +3,7 @@
 Useful planning tools and original educational guides for students, freelancers, and small teams.
 
 **Status: coordination bootstrap only. No website is implemented or deployed. AdSense approval has not been obtained.**
-Repository: https://github.com/navjotsinghxf-cifi/planwise-lab (private).
+Repository: https://github.com/navjotsinghxf-cifi/planwise-lab (public with owner approval; application deployment is not authorized).
 
 ## Product
 - Project dependency planner: cycle detection, critical path, earliest/latest dates, slack, and transparent PERT estimates.
@@ -15,7 +15,7 @@ Repository: https://github.com/navjotsinghxf-cifi/planwise-lab (private).
 
 ## Start here
 Read docs/PROJECT_BRIEF.md, AGENTS.md, coordination/MASTER_TASKS.md, and coordination/DECISIONS.md.
-Independent workers: read docs/WORKER_ONBOARDING.md. Six roles await registration; no workers are running.
+Independent workers: read docs/WORKER_ONBOARDING.md and docs/NOTION_WORKFLOW.md. Consult accepted registrations and current issues for role availability. Security/DevOps registration was accepted through PR #17; architect identity remains unresolved. Platform names do not identify workers. Notion carries operational messages and submissions; GitHub holds accepted work.
 
 ## Proposed layout
 - apps/web/ — Next.js pages, components, server routes
