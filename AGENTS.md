@@ -1,7 +1,7 @@
 # Repository working agreement
 
 ## Authority and current state
-The user authorized the manager to choose the product and create this private repository.
+The user authorized the manager to choose the product and create this repository, initially private and subsequently made public with explicit user approval.
 There are seven roles: manager, architect, designer, frontend, backend, qa, security_devops.
 Workers are independent user-authorized sessions. Do not spawn or automate sessions, create accounts, share credentials, or bypass limits.
 No implementation may be assigned to an unregistered worker.
@@ -13,9 +13,9 @@ The initial main commit is the approved integration base. After initialization, 
 2. Work only on an assigned GitHub issue. Each task has one primary owner and explicit allowed paths.
 3. Branch from approved main: agent/<role>/<issue-number>-<short-name>. Never commit directly to main.
 4. Workers update only their own status and outbox among communication files. Manager owns inboxes, the master plan, decisions and integration log.
-5. Administrative exception: a worker may append its own registration entry via a PR associated with the registration issue, before implementation assignment. Rebase to preserve every other registration.
+5. Administrative exception: a worker may submit registration through Notion for manager transfer to a PR associated with the registration issue, or append its own entry through a direct PR. Rebase to preserve every other registration.
 6. Workers may create their own checkpoint and handoff files. Implementation files must stay inside the task's allowed paths.
-7. Submit implementation as pull requests. Never overwrite another worker's unfinished work.
+7. Submit implementation through scoped pull requests, directly or through manager transfer of Notion deliverables with author/source attribution. Never overwrite another worker's unfinished work.
 8. Never silently change approved APIs or schemas. Propose changes in your outbox and await recorded approval.
 9. Pull/rebase latest approved main before final submission. Run relevant tests and attach actual output or CI links. Give exact reproduction steps for bugs.
 10. Commit and push a checkpoint before pausing. Never commit passwords, cookies, keys, tokens, or other credentials. Do not request or reveal them.
@@ -23,7 +23,7 @@ The initial main commit is the approved integration base. After initialization, 
 12. No public release, production deployment, paid activation, domain changes, or destructive database action without explicit user approval.
 
 ## Registration
-Append the template from coordination/WORKER_REGISTRATION.txt; use a unique AGENT_ID, one available role, UTC timestamp, branch and capabilities.
+Submit the template from coordination/WORKER_REGISTRATION.txt through Notion or a registration PR; use a unique AGENT_ID, one requested available role, UTC timestamp, branch (NONE when unavailable) and capabilities. Include independent user authorization, actual GitHub read/write capability and source message reference. Manager records verified requests in GitHub through a PR; a request alone is not approved registration.
 A registration PR is administrative work only, not permission to implement.
 Manager verifies user authorization, approves the registration, then records an assignment in the role inbox and task issue.
 Role reservation in a task is not assignment to a real worker. Duplicate role claims require manager resolution.
@@ -40,8 +40,8 @@ MESSAGE:
 RESPONSE_REQUIRED:
 
 Manager marks processed inbox instructions with HANDLED_BY, HANDLED_AT_UTC, RESULT_REFERENCE based on worker evidence.
-Workers reply in their own outbox. Important decisions also go in coordination/DECISIONS.md.
-Code, specs and test logs belong in repository files or PRs, not messages.
+Notion is the operational channel: separate role inboxes/outboxes, registration requests and deliverable pages. Workers reply only in their own channels; manager owns inboxes and mirrors accepted decisions, assignments and status into GitHub through PRs. Repository communication files preserve historical records. Important decisions also go in coordination/DECISIONS.md.
+Code, specs and test logs may be submitted as Notion deliverables with explicit paths and base commit; accepted artifacts belong in GitHub. A Notion submission is not a merged change or completed task. See docs/NOTION_WORKFLOW.md for transfer and review rules.
 
 ## Worker status values
 AVAILABLE, ASSIGNED, IN_PROGRESS, WAITING_DEPENDENCY, BLOCKED, READY_FOR_REVIEW,
@@ -57,6 +57,7 @@ write coordination/checkpoints/<agent-id>.md with last completed step, remaining
 affected files, tests, known problems, commit reference and exact next action; append outbox handoff;
 commit/push coordination updates; stop changing files.
 If push or tests cannot complete, record the exact failure without claiming success.
+Workers without GitHub write access publish checkpoints and complete files/patches to Notion and hand off in their outbox. Manager commits/pushes on their behalf with attribution. Until transferred, label the submission NOT_TRANSFERRED; never claim it is committed. Do not repeat failed authentication attempts or request credentials.
 Do not infer hidden quotas. No automatic account replacement.
 A replacement needs independent user authorization, registration and a new manager assignment,
 normally on a new branch after reading the preserved checkpoint.
