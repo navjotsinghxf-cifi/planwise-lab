@@ -16,3 +16,9 @@ Checks: initial git diff --check had no findings; no application tests exist or 
 Remaining: send registration/review requests citing final PR head; user wakes existing Claude and ChatGPT sessions; manager reads their registration outboxes from coordination/notion-channels.json. Validate independent authorization, unique identity, one available requested role and reviewer suitability. Preserve review source and exact head SHA in PR; no self-approval.
 Exact next action on resumption: fetch both registration outboxes and PR #13 state/reviews. Resolve findings, obtain suitable independent review and merge workflow only when gates pass. Record approved registrations through issue #1 PRs. Only then scope and assign a bounded architecture deliverable under #2 to the approved architect.
 Known blockers: independent review and registration replies unavailable until user wakes workers. Architecture and implementation remain unassigned. No deployment or AdSense submission authorized.
+
+## 2026-09-11 — workflow review revisions
+Completed: inspected current registration PRs and security-devops-chatgpt-01 review of PR #13 at 90d908c; updated workflow/onboarding/README for current sessions, explicit registration boundary and snapshot/hash/equivalence evidence. Merged approved main into this branch without conflict, preserving accepted Security/DevOps registration.
+Affected files: docs/NOTION_WORKFLOW.md, docs/WORKER_ONBOARDING.md, README.md, coordination/DECISIONS.md and this checkpoint. Changes belong to issue #12 and PR #13.
+Checks: git diff --check and scoped diff inspection; no application tests apply. Renewed review must target the new pushed head.
+Next action: read renewed Security/DevOps review, resolve findings before merging PR #13. Registration PRs #15/#16/#18 updated; #19 closed without merge and must be resolved with frontend. Architect identity remains unresolved. No implementation assigned.

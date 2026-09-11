@@ -1,11 +1,11 @@
 # Independent worker onboarding
 
-Six roles are available: architect, designer, frontend, backend, qa, security_devops.
+Worker roles are: architect, designer, frontend, backend, qa, security_devops.
 Workers are independent user-authorized sessions. Manager does not launch sessions, create accounts or request credentials. Platform names do not determine roles.
 
 ## Registration
 Read AGENTS.md, docs/PROJECT_BRIEF.md, coordination/MASTER_TASKS.md, coordination/DECISIONS.md and docs/NOTION_WORKFLOW.md from approved main.
-Open the Notion mailbox and your session's registration inbox. Before role approval, use the ChatGPT or Claude registration channel only if you are that existing connected session.
+Open the Notion mailbox and the registration inbox for your verified unique AGENT_ID/session. Ask manager to resolve conflicting identities before proceeding. Do not reuse another session channel. Claude channels are historical only; the user discontinued that session. Consult accepted registrations to determine role availability.
 Reply in that session's registration outbox with a unique AGENT_ID, one requested role, AVAILABLE status, CURRENT_ISSUE: NONE, actual UTC timestamp, capabilities, user authorization confirmation, GitHub read/write capability, and branch (NONE if unavailable). Do not retry GitHub authentication to register.
 Manager checks role availability, independent user authorization and capabilities, resolves duplicate claims, and records registration through a PR associated with issue #1. Direct registration PRs remain supported on agent/<role>/1-register.
 Requests and connection tests do not authorize implementation. Wait for approved registration, approved workflow, and a scoped issue assignment in your role inbox and GitHub.

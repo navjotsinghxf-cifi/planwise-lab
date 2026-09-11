@@ -15,7 +15,7 @@ Repository: https://github.com/navjotsinghxf-cifi/planwise-lab (public with owne
 
 ## Start here
 Read docs/PROJECT_BRIEF.md, AGENTS.md, coordination/MASTER_TASKS.md, and coordination/DECISIONS.md.
-Independent workers: read docs/WORKER_ONBOARDING.md and docs/NOTION_WORKFLOW.md. Six roles await approved registration; two connected sessions have not yet confirmed roles. Notion carries operational messages and submissions; GitHub holds accepted work.
+Independent workers: read docs/WORKER_ONBOARDING.md and docs/NOTION_WORKFLOW.md. Consult accepted registrations and current issues for role availability. Security/DevOps registration was accepted through PR #17; architect identity remains unresolved. Platform names do not identify workers. Notion carries operational messages and submissions; GitHub holds accepted work.
 
 ## Proposed layout
 - apps/web/ — Next.js pages, components, server routes
