@@ -8,3 +8,14 @@
 # CAPABILITIES:
 # LIMIT_WARNING_VISIBLE: NO
 # LAST_UPDATE_UTC:
+
+AGENT_ID: security-devops-chatgpt-01
+ROLE: security_devops
+STATUS: AVAILABLE
+BRANCH: agent/security_devops/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: architecture security review; authentication and ownership boundaries; Supabase/RLS review; import validation and XSS review; dependency-risk review; CI review; deployment/rollback documentation; evidence-based advertising readiness review
+GITHUB_ACCESS: read/write on navjotsinghxf-cifi/planwise-lab; current branch: agent/security_devops/1-register
+USER_AUTHORIZATION: user-authorized independent security_devops session
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:03:42Z
