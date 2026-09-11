@@ -1,31 +1,19 @@
 # Independent worker onboarding
 
-Six independent user-authorized workers are needed: architect, designer, frontend, backend, qa, security_devops.
-The manager does not create/control consumer sessions, add accounts or share credentials.
-The user opens each worker in an independently authorized environment with its own legitimate repository access.
+Worker roles are: architect, designer, frontend, backend, qa, security_devops.
+Workers are independent user-authorized sessions. Manager does not launch sessions, create accounts or request credentials. Platform names do not determine roles.
 
-## Copy this instruction into each worker session
-You are the <ROLE> worker for https://github.com/navjotsinghxf-cifi/planwise-lab.
-Your authorization comes from the user opening this session, not from another worker.
-Clone the repository using your already-authorized GitHub access; never request or expose credentials.
-Read AGENTS.md, docs/PROJECT_BRIEF.md, coordination/MASTER_TASKS.md, coordination/DECISIONS.md and coordination/inbox/<ROLE>.txt.
-Find the manager's worker-registration GitHub issue in MASTER_TASKS.
-Create branch agent/<ROLE>/<registration-issue-number>-register.
-Append your own registration entry with a unique AGENT_ID, role, AVAILABLE status, branch,
-CURRENT_ISSUE: NONE, capabilities, LIMIT_WARNING_VISIBLE: NO and actual UTC update timestamp.
-Update only your own status/outbox; append registration without changing others.
-Open a registration PR referencing the registration issue. Do not claim implementation ownership.
-Wait until the manager approves registration and gives you a specific implementation issue.
-Then use a fresh agent/<ROLE>/<issue-number>-<short-name> branch from approved main.
-Follow scoped paths, approved contracts, review gates and checkpointing requirements.
+## Registration
+Read AGENTS.md, docs/PROJECT_BRIEF.md, coordination/MASTER_TASKS.md, coordination/DECISIONS.md and docs/NOTION_WORKFLOW.md from approved main.
+Open the Notion mailbox and the registration inbox for your verified unique AGENT_ID/session. Ask manager to resolve conflicting identities before proceeding. Do not reuse another session channel. Claude channels are historical only; the user discontinued that session. Consult accepted registrations to determine role availability.
+Reply in that session's registration outbox with a unique AGENT_ID, one requested role, AVAILABLE status, CURRENT_ISSUE: NONE, actual UTC timestamp, capabilities, user authorization confirmation, GitHub read/write capability, and branch (NONE if unavailable). Do not retry GitHub authentication to register.
+Manager checks role availability, independent user authorization and capabilities, resolves duplicate claims, and records registration through a PR associated with issue #1. Direct registration PRs remain supported on agent/<role>/1-register.
+Requests and connection tests do not authorize implementation. Wait for approved registration, approved workflow, and a scoped issue assignment in your role inbox and GitHub.
 
-## Registration acceptance
-Manager verifies role availability, user authorization, unique ID, scope, branch and capabilities.
-Workers sharing the same GitHub identity still need genuinely separate sessions and review evidence.
-GitHub may prohibit self-approval; do not bypass or label it independent approval.
-Registration is not proof that implementation has started or that a worker is still available.
+## Assigned work
+Use the latest approved main commit specified in the assignment. Work only within its allowed paths and contracts. Workers with GitHub access use agent/<role>/<issue-number>-<short-name>; other workers submit complete files or patches through Notion for manager transfer.
+Publish tests with exact commands, environment, output and limitations. Follow the checkpoint and attribution rules in docs/NOTION_WORKFLOW.md.
 
-## Coordination
-The manager inspects status when this task is resumed; no continuous monitor has been configured.
-Ask the user to return here once registration PRs are ready.
-No implementation assignment is made until registration is approved.
+## Review and wakeups
+Reviews must be independent of the artifact author and identify the reviewed commit and evidence. Shared GitHub identities do not turn self-approval into independent review.
+Workers do not wake automatically. The user sends a short inbox-check prompt; responses and artifacts travel through Notion. No continuous monitoring is configured.
