@@ -5,3 +5,8 @@ CURRENT_ISSUE: See MASTER_TASKS registration task
 REGISTRATION: MANAGER
 LAST_UPDATE_UTC: 2026-09-08T06:26:54Z
 DETAIL: Coordination bootstrap prepared; six independent worker registrations required before implementation assignments.
+
+LAST_UPDATE_UTC: 2026-09-08T15:29:02Z
+CURRENT_ISSUE: 12
+STATUS: WAITING_DEPENDENCY
+DETAIL: PR #13 proposes Notion workflow; channels created. Waiting for independent review and role-confirming registration replies from existing ChatGPT and Claude sessions. No implementation assigned.
