@@ -19,3 +19,14 @@ GITHUB_ACCESS: read/write on navjotsinghxf-cifi/planwise-lab; current branch: ag
 USER_AUTHORIZATION: user-authorized independent security_devops session
 LIMIT_WARNING_VISIBLE: NO
 LAST_UPDATE_UTC: 2026-09-11T15:03:42Z
+
+AGENT_ID: frontend-chatgpt-01
+ROLE: frontend
+STATUS: AVAILABLE
+BRANCH: agent/frontend/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: Accessible responsive interfaces; anonymous workspaces; browser persistence; validated import/export; print views; navigation; component/browser tests; keyboard-accessible UI validation
+GITHUB_ACCESS: read/write on navjotsinghxf-cifi/planwise-lab; current branch: agent/frontend/1-register
+USER_AUTHORIZATION: user-authorized independent frontend session
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:25:43Z
