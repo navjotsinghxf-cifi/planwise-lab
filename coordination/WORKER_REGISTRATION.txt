@@ -19,3 +19,15 @@ GITHUB_ACCESS: read/write on navjotsinghxf-cifi/planwise-lab; current branch: ag
 USER_AUTHORIZATION: user-authorized independent security_devops session
 LIMIT_WARNING_VISIBLE: NO
 LAST_UPDATE_UTC: 2026-09-11T15:03:42Z
+
+AGENT_ID: designer-chatgpt-01
+ROLE: designer
+STATUS: AVAILABLE
+BRANCH: agent/designer/1-register
+CURRENT_ISSUE: NONE
+CAPABILITIES: responsive accessible UX; tool workflow design; keyboard navigation; chart/table equivalents; original educational guides; truthful publisher-page drafts
+GITHUB_WRITE_CAPABILITY: YES
+GITHUB_READ_CAPABILITY: YES
+USER_AUTHORIZATION: Explicitly authorized by the user in this independent session
+LIMIT_WARNING_VISIBLE: NO
+LAST_UPDATE_UTC: 2026-09-11T15:02:06Z
