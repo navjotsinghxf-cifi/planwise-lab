@@ -16,3 +16,14 @@ Snapshot: manager-arch21-revision1-source.json; fetched response serialized UTF-
 Revision 1 improves ownership and honest compatibility status but drops required import/version/limits, worked examples, next contract deliverable and release-input detail; citations contain chat-only tokens. Security review on ccf944d requests five concrete auth/RLS/import/concurrency/indexing safeguards.
 Next action: architect produces one complete Revision 2 incorporating all manager/security findings and restoring scope. Preserve original revisions. Then manager transfers and obtains exact-head review. No application work assigned; project remains in architecture review.
 Checks: source JSON parses, expected revision identity and metadata inspected, git diff --check; no application tests applicable. This checkpoint and source evidence are committed on the existing #21 review branch.
+
+## 2026-09-12 — consolidated Revision 2 transferred
+Author: architect-chatgpt-02; handoff ARCH-21-CHATGPT-02-003.
+Source: https://app.notion.com/p/3d9e4d9a8cbb81d1a4e1cc81b9039e45
+Snapshot: manager-arch21-revision2-source.json; fetched tool response serialized UTF-8/LF and preserved in this commit history. Original uploaded bytes unavailable. Worker timestamp 2026-09-12T04:45:00Z is reported, not independently verified; Notion edited metadata is 2026-09-12T04:37:03.177Z if available in snapshot (snapshot is authoritative).
+Snapshot SHA-256: DB355AA77CCFC63B70971F02B4EA188AB4A16B886D1DDD27B98F1EF5688EB6DD
+Destination docs/ARCHITECTURE.md SHA-256: 75DE20D6DE85ED62D68C9395A59231004B84B50FB4903A1F07F952C336258845
+Transformation: parse snapshot.content[0].text JSON; extract its text from '# Architecture Decision Document — Revision 2' through before '</content>'; trim trailing whitespace per line and end with one LF. Destination equals normalized extraction; not byte-equivalent to full tool response or unnormalized source. No substantive manager edits.
+Manager review: ownership/compatibility findings resolved at architectural level; security safeguards now explicitly cover session/CSRF failure matrix, mandatory private Supabase RLS, early body/resource limits, atomic version preconditions and private noindex/cache isolation. Original envelope/migration/failed-import rules, worked-example plans, next contract task and release inputs restored. Exact dependency/runtime compatibility remains unverified and must pass before bootstrap acceptance.
+Checks: nineteen numbered sections and source equality verified; no chat citation tokens; git diff --check. No application/runtime security tests applicable or claimed. All previous sources preserved.
+Next action: independent Security/DevOps review at this new exact PR head. Merge #22 and close #21 only after acceptance; then assign a bounded project-planner contract task, followed by scoped parallel frontend/engine work. No contracts are yet frozen.
