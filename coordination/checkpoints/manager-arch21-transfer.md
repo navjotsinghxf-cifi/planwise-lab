@@ -20,7 +20,7 @@ Checks: source JSON parses, expected revision identity and metadata inspected, g
 ## 2026-09-12 — consolidated Revision 2 transferred
 Author: architect-chatgpt-02; handoff ARCH-21-CHATGPT-02-003.
 Source: https://app.notion.com/p/3d9e4d9a8cbb81d1a4e1cc81b9039e45
-Snapshot: manager-arch21-revision2-source.json; fetched tool response serialized UTF-8/LF and preserved in this commit history. Original uploaded bytes unavailable. Worker timestamp 2026-09-12T04:45:00Z is reported, not independently verified; Notion edited metadata is 2026-09-12T04:37:03.177Z if available in snapshot (snapshot is authoritative).
+Snapshot: manager-arch21-revision2-source.json; fetched tool response serialized UTF-8/LF and preserved in this commit history. Original uploaded bytes unavailable. Worker timestamp 2026-09-12T04:45:00Z is reported, not independently verified; Notion edited metadata is preserved in the snapshot; it is distinct from the worker-reported submission timestamp.
 Snapshot SHA-256: DB355AA77CCFC63B70971F02B4EA188AB4A16B886D1DDD27B98F1EF5688EB6DD
 Destination docs/ARCHITECTURE.md SHA-256: 75DE20D6DE85ED62D68C9395A59231004B84B50FB4903A1F07F952C336258845
 Transformation: parse snapshot.content[0].text JSON; extract its text from '# Architecture Decision Document — Revision 2' through before '</content>'; trim trailing whitespace per line and end with one LF. Destination equals normalized extraction; not byte-equivalent to full tool response or unnormalized source. No substantive manager edits.
